@@ -1,3 +1,5 @@
+![Profile Views](https://komarev.com/ghpvc/?username=sangatiravitejareddy&label=Profile%20views&color=0e75b6&style=flat)
+
 # DevOps Learning Journey – Ravi Teja Reddy
 
 This repository documents my 90-day DevOps journey from beginner to job-ready.  
