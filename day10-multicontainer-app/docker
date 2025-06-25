@@ -1,0 +1,16 @@
+# Day 10 – Multi-Container App with Docker Compose
+
+## ✅ Stack
+- React (frontend)
+- Flask (backend)
+- PostgreSQL (db)
+
+## ✅ Commands Used
+docker compose up --build  
+docker compose down
+
+## ✅ Learned
+- How containers talk via service name
+- How React fetches API from backend
+- Real-world architecture using Compose
+
