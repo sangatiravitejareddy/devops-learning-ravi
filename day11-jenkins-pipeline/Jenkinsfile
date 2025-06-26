@@ -2,17 +2,10 @@ pipeline {
   agent any
 
   stages {
-    stage('Clone Code') {
-      steps {
-        git 'https://github.com/sangatiravitejareddy/devops-learning-ravi.git'
-      }
-    }
-
     stage('Build & Deploy') {
       steps {
-        sh 'docker compose -f devops-learning-ravi/day11-jenkins-pipeline/docker-compose.yml up -d --build'
+        sh 'docker compose -f day11-jenkins-pipeline/docker-compose.yml up -d --build'
       }
     }
   }
 }
-
